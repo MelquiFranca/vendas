@@ -14,7 +14,7 @@ export default function Cabecalho() {
                 <FontAwesomeIcon icon={faCartPlus} size="3x"/>
                 <span>Soft_Vendas</span>
             </a>
-            <div className="config-usuario">Usuario</div>
+            <div className="config-usuario">Melquisedeque Pereira França</div>
         </div>
     )
 }

@@ -37,6 +37,7 @@
 .card-menu .card-descricao {
     flex: 2;
     padding: 0px 20px;
+    font-size: 20px;
     text-align: center;
     color: #AAA;
 
