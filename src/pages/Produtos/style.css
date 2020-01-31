@@ -1,0 +1,31 @@
+.home-produtos {
+    flex-direction: column;
+}
+
+.home-produtos-corpo { 
+    padding: 20px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    flex-direction: row;
+}
+
+.home-produtos-corpo .lista-produtos {
+    color: #FFF;
+    flex: 5;
+    padding: 20px;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.home-produtos-corpo .lista-produtos h2 {
+    width: 100%;
+}
+
+
+@media (max-width: 998px) {
+    .home-produtos-corpo {
+        flex-direction: column;
+    }
+    .home-produtos-corpo .lista-produtos {
+        flex: 1;
+    }
+}

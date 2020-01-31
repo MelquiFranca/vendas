@@ -1,0 +1,30 @@
+.cabecalho {
+    background: #1d1b24a1;
+    color: #FFF;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.cabecalho div, .cabecalho a {
+    flex: 1;    
+    padding: 0px 30px;
+    align-items: center;
+}
+.cabecalho .logo {
+    display: flex;
+    text-decoration: none;
+    color: #FFF;
+    /* border: 1px solid red; */
+}
+
+.cabecalho .logo span {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;   
+    flex: 2; 
+    margin-left: 15px;
+}
+
+.cabecalho .config-usuario {
+    justify-content: flex-end;
+}
