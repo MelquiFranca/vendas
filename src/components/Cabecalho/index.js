@@ -1,5 +1,5 @@
 import React from 'react';
-import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './style.css';
@@ -11,7 +11,7 @@ export default function Cabecalho() {
                 href="/home"
                 className="logo"
             >
-                <FontAwesomeIcon icon={faCartPlus} size="3x"/>
+                <FontAwesomeIcon icon={faCartArrowDown} size="2x"/>
                 <span>Soft_Vendas</span>
             </a>
             <div className="notificacoes"></div>

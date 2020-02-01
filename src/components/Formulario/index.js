@@ -15,6 +15,11 @@ export default function Formulario() {
                     <label htmlFor="" className="form-label">Descrição</label>
                     <input type="text" className="form-input"/>
                 </div>
+
+                <div className="form-campo">
+                    <label htmlFor="" className="form-label">Categoria</label>
+                    <input type="text" className="form-input"/>
+                </div>
                 
                 <div>
                     <div className="form-campo">

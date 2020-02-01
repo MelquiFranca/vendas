@@ -10,7 +10,7 @@
     max-width: 480px;
     margin: 5px 10px;
     border-radius: 5px;
-    padding: 0px 10px;
+    padding: 20px;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
@@ -53,7 +53,7 @@
     color: #FFF;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
     .card-menu {
         height: 50%;
         min-width: 100%;     
