@@ -1,5 +1,6 @@
 .home-produtos {
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .home-produtos-corpo { 
